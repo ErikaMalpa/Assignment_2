@@ -9,17 +9,17 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:GridView ID="GridAll" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" PageSize="5">
-                <Columns>
-                    <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
-                    <asp:BoundField DataField="brand" HeaderText="brand" SortExpression="brand" />
-                    <asp:BoundField DataField="model" HeaderText="model" SortExpression="model" />
-                    <asp:BoundField DataField="color" HeaderText="color" SortExpression="color" />
-                    <asp:BoundField DataField="year" HeaderText="year" SortExpression="year" />
-                    <asp:BoundField DataField="id_owner" HeaderText="id_owner" SortExpression="id_owner" />
-                </Columns>
+            <asp:GridView ID="GridAll" runat="server" AllowPaging="True" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" PageSize="5">
+                <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
+                <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+                <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
+                <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
+                <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
+                <SortedAscendingCellStyle BackColor="#FFF1D4" />
+                <SortedAscendingHeaderStyle BackColor="#B95C30" />
+                <SortedDescendingCellStyle BackColor="#F1E5CE" />
+                <SortedDescendingHeaderStyle BackColor="#93451F" />
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [CarsTable]"></asp:SqlDataSource>
         </div>
     </form>
 </body>

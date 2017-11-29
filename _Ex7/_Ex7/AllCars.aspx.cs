@@ -11,7 +11,13 @@ namespace _Ex7
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            AllCars acCars = new AllCars();
+            var db = new CarsDBEntities();
+
+            var query = (from car in db.CarsTables
+                select car).ToList();
+
+            GridAll.DataSource = query;
+            GridAll.DataBind();
         }
     }
 }

@@ -19,21 +19,20 @@ namespace E6
             Session["name"] = TextName.Text;
             Session["email"] = TextEmail.Text;
             Response.Redirect("Page1.aspx");
-            Response.Redirect("Page1.aspx");
         }
 
         protected void Pg2_Click(object sender, EventArgs e)
         {
-            String strName = TextName.Text;
-            String strEmail = TextEmail.Text;
+            string strName = TextName.Text;
+            string strEmail = TextEmail.Text;
             Response.Redirect("Page2.aspx?name=" + strName + "&email=" + strEmail);
         }
 
         protected void Pg3_Click(object sender, EventArgs e)
         {
             Person person = Person.Instance;
-            String username = person.Name = TextName.Text;
-            String email = person.Email = TextEmail.Text;
+            string username = person.Name = TextName.Text;
+            string email = person.Email = TextEmail.Text;
 
             Session["username"] = username;
             Session["email"] = email;

@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Page 1</div>
+            <h1> 
+                <asp:Label runat="server" Text="Page1"></asp:Label>
+            </h1></div>
     <p>
         Name:<asp:Label ID="Name" runat="server" Text="Label"></asp:Label>
         </p>

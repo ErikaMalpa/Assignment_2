@@ -11,11 +11,11 @@ namespace E6
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string str_name = Convert.ToString(Session["name"]);
-            Name.Text = str_name;
+            string strName = Convert.ToString(Session["name"]);
+            Name.Text = strName;
 
-            string str_email = Convert.ToString(Session["email"]);
-            Email.Text = str_email;
+            string strEmail = Convert.ToString(Session["email"]);
+            Email.Text = strEmail;
         }
     }
 }
