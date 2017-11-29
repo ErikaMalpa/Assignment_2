@@ -7,8 +7,17 @@ using System.Web.UI.WebControls;
 
 namespace _Ex7
 {
+    /// <summary>
+    /// Class for AUdis
+    /// </summary>
     public partial class Audis : System.Web.UI.Page
     {
+        /// <summary>
+        /// Linq for Audi cars and in the datagrid
+        /// it will show only Audi cars
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void Page_Load(object sender, EventArgs e)
         {
             CarsDBEntities db = new CarsDBEntities();
