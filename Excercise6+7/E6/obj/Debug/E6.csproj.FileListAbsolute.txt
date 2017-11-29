@@ -35,3 +35,5 @@ C:\Users\erika\source\repos\E6\E6\obj\Debug\E6.csprojResolveAssemblyReference.ca
 C:\Users\erika\source\repos\E6\E6\obj\Debug\E6.csproj.CoreCompileInputs.cache
 C:\Users\erika\source\repos\E6\E6\obj\Debug\E6.dll
 C:\Users\erika\source\repos\E6\E6\obj\Debug\E6.pdb
+C:\Users\erika\OneDrive\Documents\Assignment_2\Excercise6+7\E6\obj\Debug\E6.dll
+C:\Users\erika\OneDrive\Documents\Assignment_2\Excercise6+7\E6\obj\Debug\E6.pdb

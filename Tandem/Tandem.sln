@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tandem", "Tandem\Tandem.csproj", "{794A7B5E-02AF-4AD9-9CD2-E50F3944B3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tandem.Tests", "Tandem.Tests02\Tandem.Tests.csproj", "{1C7382F2-95E1-4371-850A-60444B6FF5B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{794A7B5E-02AF-4AD9-9CD2-E50F3944B3FB}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{794A7B5E-02AF-4AD9-9CD2-E50F3944B3FB}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{794A7B5E-02AF-4AD9-9CD2-E50F3944B3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794A7B5E-02AF-4AD9-9CD2-E50F3944B3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7382F2-95E1-4371-850A-60444B6FF5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7382F2-95E1-4371-850A-60444B6FF5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7382F2-95E1-4371-850A-60444B6FF5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7382F2-95E1-4371-850A-60444B6FF5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {906FD4A4-EF3F-467C-A926-97F445E819E2}
+	EndGlobalSection
+EndGlobal

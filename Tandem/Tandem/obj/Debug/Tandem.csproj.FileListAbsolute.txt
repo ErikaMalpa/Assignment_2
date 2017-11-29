@@ -1,0 +1,37 @@
+C:\Users\erika\source\repos\Tandem\Tandem\bin\Debug\Tandem.exe.config
+C:\Users\erika\source\repos\Tandem\Tandem\bin\Debug\Tandem.exe
+C:\Users\erika\source\repos\Tandem\Tandem\bin\Debug\Tandem.pdb
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\App.g.cs
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem_MarkupCompile.cache
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem_MarkupCompile.lref
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem.g.resources
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem.Properties.Resources.resources
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem.csproj.GenerateResource.Cache
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem.csproj.CoreCompileInputs.cache
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem.exe
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\Tandem.pdb
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\View\MainWindow.g.cs
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\View\MainWindow.baml
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\View\SignUp.g.cs
+C:\Users\erika\source\repos\Tandem\Tandem\obj\Debug\View\SignUp.baml
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\bin\Debug\Tandem.exe.config
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\bin\Debug\Tandem.exe
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\bin\Debug\Tandem.pdb
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\View\MainWindow.g.cs
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\View\SignUp.g.cs
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\App.g.cs
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem_MarkupCompile.cache
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem_MarkupCompile.lref
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\View\MainWindow.baml
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\View\SignUp.baml
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem.g.resources
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem.Properties.Resources.resources
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem.csproj.GenerateResource.Cache
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem.csproj.CoreCompileInputs.cache
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem.exe
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\Tandem.pdb
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\View\CoffeeMeeting.g.cs
+C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Debug\View\CoffeeMeeting.baml

@@ -1,0 +1,58 @@
+﻿<Window x:Class="Tandem.View.CoffeeMeeting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tandem.View"
+        mc:Ignorable="d"
+        Title="CoffeeMeeting" Height="500" Width="625">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" MinWidth="50" />
+            <ColumnDefinition Width="auto" MinWidth="49.2" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" MinHeight="211" />
+            <RowDefinition Height="auto" MinHeight="0.657" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="159.226" Margin="-98.367,-53.166,-15.523,0" Stroke="Black" VerticalAlignment="Top" Width="732.49" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="7" Grid.RowSpan="4">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5.622"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <TextBlock FontWeight="Bold" RenderTransformOrigin="0.5,0.5" FontSize="24" Grid.Column="1" Grid.Row="2">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5.617"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Foreground="#FFFFF056" FontSize="48" Text="Coffee"/><Run Foreground="#FFFFF056" FontSize="48" Text=" "/><Run Foreground="#FFFFF056" FontSize="48" Text="Meeting"/></TextBlock>
+        <Menu HorizontalAlignment="Left" Height="22.4" Margin="6.6,15.6,0,0" VerticalAlignment="Top" Width="128.933" Background="#FF191919" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
+            <MenuItem Header="Home" Height="22.4" Width="66.4"  Background="#FF191919" Foreground="#FFF4F4F5" Click="HomeButton"/>
+            <MenuItem Header="Sign Up" Height="22.4" Width="62.4" Background="#FF191919" Foreground="#FFF4F4F5" Click="SignUpClick"/>
+        </Menu>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="150.943" Margin="10,39.657,0,0" Grid.Row="3" VerticalAlignment="Top" Width="177.51" Source="C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\Pictures\CoffeeP1.jpg"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="192.51,29.257,4.6,20.4"><Run Foreground="#FFFFF056" FontWeight="Bold" FontSize="18" Text="Covfefe"/><LineBreak/><Run FontSize="14" Text="Adress: "/><LineBreak/><Run FontSize="14" Text="123 Strasse, Darmstadt"/><LineBreak/><Run FontSize="14" Text="Languages: German, Englsh"/><LineBreak/><Run FontSize="14" Text="Meeting TIme:"/><LineBreak/><Run FontSize="14" Text="Every Saturday"/><Run FontSize="14" Text=" and Sunday"/><LineBreak/><Run FontSize="14" Text="1 pm"/></TextBlock>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="150.943" Margin="10,19.257,0,0" Grid.Row="4" VerticalAlignment="Top" Width="177.51" Source="C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\Pictures\CoffeeP2.jpg"/>
+        <TextBlock Grid.Row="4" Grid.Column="1" Margin="192.51,19.257,4.6,30.4"><Run Foreground="#FFFFF056" FontWeight="Bold" FontSize="18" Text="Covfefe"/><LineBreak/><Run FontSize="14" Text="Adress: "/><LineBreak/><Run FontSize="14" Text="123 Strasse, Darmstadt"/><LineBreak/><Run FontSize="14" Text="Languages: German, Englsh"/><LineBreak/><Run FontSize="14" Text="Meeting TIme:"/><LineBreak/><Run FontSize="14" Text="Every Saturday"/><Run FontSize="14" Text=" and Sunday"/><LineBreak/><Run FontSize="14" Text="1 pm"/></TextBlock>
+    </Grid>
+</Window>
