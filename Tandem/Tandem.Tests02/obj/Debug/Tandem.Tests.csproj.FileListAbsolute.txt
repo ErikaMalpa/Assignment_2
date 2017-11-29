@@ -12,3 +12,17 @@ C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem.Tests02\obj\Debug\Tandem.
 C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.csproj.CoreCompileInputs.cache
 C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.dll
 C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.pdb
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Tandem.Tests.dll
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Tandem.Tests.pdb
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Microsoft.ExtendedReflection.dll
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Microsoft.Pex.Framework.dll
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Tandem.exe
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Microsoft.ExtendedReflection.Reasoning.dll
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Tandem.pdb
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Tandem.exe.config
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Microsoft.Pex.Framework.xml
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.csprojResolveAssemblyReference.cache
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.csproj.CoreCompileInputs.cache
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.dll
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.pdb

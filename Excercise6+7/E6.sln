@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E6", "E6\E6.csproj", "{50C856C5-8F60-401D-AD96-6D477DBCC458}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Excercise7", "Excercise7", "{E977C7F9-4C88-4BF7-8BD8-68AE45A9E2ED}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Ex7", "..\_Ex7\_Ex7\_Ex7.csproj", "{70209AA7-B9FB-42B6-B821-B99FFEACA226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Excercise6", "Excercise6", "{9DCE9C21-044F-4763-95C3-2A75DA5B820E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,7 +29,11 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50C856C5-8F60-401D-AD96-6D477DBCC458} = {9DCE9C21-044F-4763-95C3-2A75DA5B820E}
+		{70209AA7-B9FB-42B6-B821-B99FFEACA226} = {E977C7F9-4C88-4BF7-8BD8-68AE45A9E2ED}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1FC2FC87-1F21-4E54-BD6B-C8C1AAA3A13C}
+		SolutionGuid = {CB1237BE-C37E-4F50-89DB-0449CCAF9ADC}
 	EndGlobalSection
 EndGlobal

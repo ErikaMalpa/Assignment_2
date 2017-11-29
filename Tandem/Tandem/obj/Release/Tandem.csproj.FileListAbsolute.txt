@@ -18,3 +18,23 @@ C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Release\Tandem.csproj
 C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Release\Tandem.exe
 C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Release\Tandem.pdb
 C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\obj\Release\Tandem.csprojResolveAssemblyReference.cache
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\bin\Release\Tandem.exe.config
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\bin\Release\Tandem.exe
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\bin\Release\Tandem.pdb
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem.csprojResolveAssemblyReference.cache
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\View\CoffeeMeeting.g.cs
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\View\MainWindow.g.cs
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\View\SignUp.g.cs
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\App.g.cs
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem_MarkupCompile.cache
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem_MarkupCompile.lref
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\View\CoffeeMeeting.baml
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\View\MainWindow.baml
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\View\SignUp.baml
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem.g.resources
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem.Properties.Resources.resources
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem.csproj.GenerateResource.Cache
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem.csproj.CoreCompileInputs.cache
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem.exe
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem\obj\Release\Tandem.pdb
