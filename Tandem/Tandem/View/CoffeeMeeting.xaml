@@ -6,6 +6,78 @@
         xmlns:local="clr-namespace:Tandem.View"
         mc:Ignorable="d"
         Title="CoffeeMeeting" Height="500" Width="625">
+    <Window.Resources>
+        <!--Coffee Meeting Style -->
+        <Style x:Key="CoffeeMeetingStyle">
+            <Setter Property="TextBox.HorizontalAlignment" Value="Center" />
+            <Setter Property="TextBox.FontFamily" Value="Comic Sans MS"/>
+            <Setter Property="TextBox.FontWeight" Value="Bold"/>
+            <Setter Property="TextBox.RenderTransformOrigin" Value="0.5,0.5"/>
+            <Setter Property="TextBox.FontSize" Value="48"/>
+            <Setter Property="TextBox.Foreground" Value="#FFFFF056"/>
+        </Style>
+
+        <!--Coffee Meeting Style -->
+        <Style x:Key="ImageStyle" >
+            <Setter Property="Image.HorizontalAlignment" Value="Left" />
+            <Setter Property="Image.Height" Value="151"/>
+            <Setter Property="Image.Margin" Value="10,50.6,0,0" />
+            <Setter Property="Image.VerticalAlignment" Value="Top" />
+            <Setter Property="Image.Width" Value="178"/>
+        </Style>
+
+        <!--Coffee Meeting Style -->
+        <Style x:Key="ImageStyle2" >
+            <Setter Property="Image.HorizontalAlignment" Value="Left" />
+            <Setter Property="Image.Height" Value="151"/>
+            <Setter Property="Image.Margin" Value="10,19.257,0,0" />
+            <Setter Property="Image.VerticalAlignment" Value="Top" />
+            <Setter Property="Image.Width" Value="178"/>
+        </Style>
+
+        <!--Coffee Meeting Style-->
+        <Style x:Key="EllipseBlackStyle" >
+            <Setter Property="Ellipse.Fill" Value="#FF191919" />
+            <Setter Property="Ellipse.HorizontalAlignment" Value="Left" />
+            <Setter Property="Ellipse.Height" Value="159.226" />
+            <Setter Property="Ellipse.Margin" Value="-98.367,-53.166,-15.523,0" />
+            <Setter Property="Ellipse.VerticalAlignment" Value="Top" />
+            <Setter Property="Ellipse.Width" Value="732.49" />
+            <Setter Property="Ellipse.RenderTransformOrigin" Value="0.5,0.5" />
+        </Style>
+
+        <!--Coffee Meeting Style-->
+        <Style x:Key="TextBlockStyleTitle" >
+            <Setter Property="TextBlock.Margin" Value="193,49.6,3.4,185.2" />
+            <Setter Property="TextBlock.Foreground" Value="#FFFFF056" />
+            <Setter Property="TextBlock.FontWeight" Value="Bold" />
+            <Setter Property="TextBlock.FontSize" Value="18" />
+        </Style>
+
+        <!--Coffee Meeting Style-->
+        <Style x:Key="TextBlockStyleDesc" >
+            <Setter Property="TextBlock.Margin" Value="193,68.6,3.4,185.2" />
+            <Setter Property="TextBlock.Foreground" Value="Black" />
+            <Setter Property="TextBlock.FontSize" Value="16" />
+        </Style>
+
+        <!--Coffee Meeting Style-->
+        <Style x:Key="TextBlockStyleTitle2" >
+            <Setter Property="TextBlock.Margin" Value="192.51,19.257,4.6,30.4" />
+            <Setter Property="TextBlock.Foreground" Value="#FFFFF056" />
+            <Setter Property="TextBlock.FontWeight" Value="Bold" />
+            <Setter Property="TextBlock.FontSize" Value="18" />
+        </Style>
+
+        <!--Coffee Meeting Style-->
+        <Style x:Key="TextBlockStyleDesc2" >
+            <Setter Property="TextBlock.Margin" Value="193,42.4,3.4,0" />
+            <Setter Property="TextBlock.Foreground" Value="Black" />
+            <Setter Property="TextBlock.FontSize" Value="16" />
+        </Style>
+
+    </Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20" />
@@ -27,7 +99,8 @@
             <RowDefinition />
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
-        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="159.226" Margin="-98.367,-53.166,-15.523,0" Stroke="Black" VerticalAlignment="Top" Width="732.49" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="7" Grid.RowSpan="4">
+
+        <Ellipse Style="{StaticResource EllipseBlackStyle}" Grid.ColumnSpan="7" Grid.RowSpan="4">
             <Ellipse.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -37,7 +110,9 @@
                 </TransformGroup>
             </Ellipse.RenderTransform>
         </Ellipse>
-        <TextBlock FontWeight="Bold" RenderTransformOrigin="0.5,0.5" FontSize="24" Grid.Column="1" Grid.Row="2">
+
+        <TextBlock Grid.Column="1" Style="{StaticResource CoffeeMeetingStyle}"  Grid.RowSpan="4" Margin="21,26,56.4,184.89">
+            Coffee Time
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -45,14 +120,23 @@
                     <RotateTransform Angle="-5.617"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><Run Foreground="#FFFFF056" FontSize="48" Text="Coffee"/><Run Foreground="#FFFFF056" FontSize="48" Text=" "/><Run Foreground="#FFFFF056" FontSize="48" Text="Meeting"/></TextBlock>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
         <Menu HorizontalAlignment="Left" Height="22.4" Margin="6.6,15.6,0,0" VerticalAlignment="Top" Width="128.933" Background="#FF191919" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
             <MenuItem Header="Home" Height="22.4" Width="66.4"  Background="#FF191919" Foreground="#FFF4F4F5" Click="HomeButton"/>
             <MenuItem Header="Sign Up" Height="22.4" Width="62.4" Background="#FF191919" Foreground="#FFF4F4F5" Click="SignUpClick"/>
         </Menu>
-        <Image Grid.Column="1" HorizontalAlignment="Left" Height="150.943" Margin="10,39.657,0,0" Grid.Row="3" VerticalAlignment="Top" Width="177.51" Source="C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\Pictures\CoffeeP1.jpg"/>
-        <TextBlock Grid.Row="3" Grid.Column="1" Margin="192.51,29.257,4.6,20.4"><Run Foreground="#FFFFF056" FontWeight="Bold" FontSize="18" Text="Covfefe"/><LineBreak/><Run FontSize="14" Text="Adress: "/><LineBreak/><Run FontSize="14" Text="123 Strasse, Darmstadt"/><LineBreak/><Run FontSize="14" Text="Languages: German, Englsh"/><LineBreak/><Run FontSize="14" Text="Meeting TIme:"/><LineBreak/><Run FontSize="14" Text="Every Saturday"/><Run FontSize="14" Text=" and Sunday"/><LineBreak/><Run FontSize="14" Text="1 pm"/></TextBlock>
-        <Image Grid.Column="1" HorizontalAlignment="Left" Height="150.943" Margin="10,19.257,0,0" Grid.Row="4" VerticalAlignment="Top" Width="177.51" Source="C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\Pictures\CoffeeP2.jpg"/>
-        <TextBlock Grid.Row="4" Grid.Column="1" Margin="192.51,19.257,4.6,30.4"><Run Foreground="#FFFFF056" FontWeight="Bold" FontSize="18" Text="Covfefe"/><LineBreak/><Run FontSize="14" Text="Adress: "/><LineBreak/><Run FontSize="14" Text="123 Strasse, Darmstadt"/><LineBreak/><Run FontSize="14" Text="Languages: German, Englsh"/><LineBreak/><Run FontSize="14" Text="Meeting TIme:"/><LineBreak/><Run FontSize="14" Text="Every Saturday"/><Run FontSize="14" Text=" and Sunday"/><LineBreak/><Run FontSize="14" Text="1 pm"/></TextBlock>
+
+        <Image Style="{StaticResource ImageStyle}" Grid.Column="1" HorizontalAlignment="Left" Height="151" Margin="10,50.6,0,0" Grid.Row="3" VerticalAlignment="Top" Width="178" Source="C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\Pictures\CoffeeP1.jpg"/>
+
+
+        <TextBlock Style="{StaticResource TextBlockStyleTitle}" Grid.Row="3" Grid.Column="1" Grid.RowSpan="2">Covfefe <LineBreak/></TextBlock>
+        <TextBlock Style="{StaticResource TextBlockStyleDesc}" Grid.Row="3" Grid.Column="1" Grid.RowSpan="4" >Adress: 123 Strasse, Darmstadt <LineBreak/> Languages: German, Englsh <LineBreak/> Meeting Time: <LineBreak/> Every Saturday and Sunday <LineBreak/> 1pm</TextBlock>
+
+        <Image Style="{StaticResource ImageStyle2}" Grid.Column="1" Grid.Row="4" Source="C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\Pictures\CoffeeP2.jpg"/>
+
+        <TextBlock Style="{StaticResource TextBlockStyleTitle2}" Grid.Row="4" Grid.Column="1">Accents</TextBlock>
+        <TextBlock Style="{StaticResource TextBlockStyleDesc2}" Grid.Row="4" Grid.Column="1" >Adress: 3 Strasse, Darmstadt <LineBreak/> Languages: German, Russian <LineBreak/> Meeting Time: <LineBreak/> Every Friday and Wednesday <LineBreak/> 6pm</TextBlock>
     </Grid>
 </Window>

@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
-    "\\Excercise6+7",
-    "\\_Ex7\\_Ex7"
+    "",
+    "\\Excercise6+7\\E6",
+    "\\Tandem",
+    "\\Tandem\\Tandem",
+    "\\Tandem\\Tandem\\View"
   ],
-  "SelectedNode": "\\Excercise6+7\\E6.sln",
+  "SelectedNode": "\\Tandem\\Tandem\\Tandem.csproj",
   "PreviewInSolutionExplorer": false
 }

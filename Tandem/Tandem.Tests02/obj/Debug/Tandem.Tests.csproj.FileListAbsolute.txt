@@ -26,3 +26,5 @@ C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\obj\Debug\T
 C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.csproj.CoreCompileInputs.cache
 C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.dll
 C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\obj\Debug\Tandem.Tests.pdb
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Tandem.Tests.dll.CodeAnalysisLog.xml
+C:\Users\erika\OneDrive\Documents\Assignment_2\Tandem\Tandem.Tests02\bin\Debug\Tandem.Tests.dll.lastcodeanalysissucceeded

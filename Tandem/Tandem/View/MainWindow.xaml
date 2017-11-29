@@ -6,6 +6,12 @@
         xmlns:local="clr-namespace:Tandem"
         mc:Ignorable="d"
         Title="Tandem Language" Height="450" Width="625">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+        </Style>
+    </Window.Resources>
     <Grid Background="#FFDFE2DB">
         <Grid.RowDefinitions>
             <RowDefinition Height="10"/>
@@ -48,6 +54,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
+        
         <TextBlock Grid.Column="2" HorizontalAlignment="Left" Height="232" Margin="48.2,142.4,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" RenderTransformOrigin="0.5,0.5">
             <TextBlock.RenderTransform>
                 <TransformGroup>
@@ -57,7 +64,7 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </TextBlock.RenderTransform><Run Foreground="#FFFFF056" FontSize="36" Text="Tandem "/><Run Foreground="#FF231F20" FontSize="36" Text="Language"/><LineBreak/><LineBreak/><Run Foreground="#FF231F20" FontWeight="Bold" FontSize="18" Text="Meet other students and learn a new language. At the same time you also teach them"/></TextBlock>
-        <TextBlock Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="68" Margin="28,89,0,0" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" FontSize="24">
+        <TextBlock  Name="TandemLamguage" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="68" Margin="28,89,0,0" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" FontSize="24">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
