@@ -76,6 +76,15 @@
             <Setter Property="TextBlock.FontSize" Value="16" />
         </Style>
 
+        <!--Coffee Meeting Style -->
+        <Style x:Key="MenuStyle" >
+            <Setter Property="Menu.HorizontalAlignment" Value="Left" />
+            <Setter Property="Menu.Height" Value="22.4" />
+            <Setter Property="Menu.VerticalAlignment" Value="Top" />
+            <Setter Property="Menu.Width" Value="128.933" />
+            <Setter Property="Menu.Background" Value="#FF191919" />
+        </Style>
+
     </Window.Resources>
 
     <Grid>
@@ -123,12 +132,12 @@
             </TextBlock.RenderTransform>
         </TextBlock>
 
-        <Menu HorizontalAlignment="Left" Height="22.4" Margin="6.6,15.6,0,0" VerticalAlignment="Top" Width="128.933" Background="#FF191919" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
+        <Menu Style="{StaticResource MenuStyle}" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
             <MenuItem Header="Home" Height="22.4" Width="66.4"  Background="#FF191919" Foreground="#FFF4F4F5" Click="HomeButton"/>
             <MenuItem Header="Sign Up" Height="22.4" Width="62.4" Background="#FF191919" Foreground="#FFF4F4F5" Click="SignUpClick"/>
         </Menu>
 
-        <Image Style="{StaticResource ImageStyle}" Grid.Column="1" HorizontalAlignment="Left" Height="151" Margin="10,50.6,0,0" Grid.Row="3" VerticalAlignment="Top" Width="178" Source="C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\Pictures\CoffeeP1.jpg"/>
+        <Image Style="{StaticResource ImageStyle}" Grid.Column="1" Grid.Row="3" Source="C:\Users\erika\source\repos\Assignment 2\Tandem\Tandem\Pictures\CoffeeP1.jpg"/>
 
 
         <TextBlock Style="{StaticResource TextBlockStyleTitle}" Grid.Row="3" Grid.Column="1" Grid.RowSpan="2">Covfefe <LineBreak/></TextBlock>

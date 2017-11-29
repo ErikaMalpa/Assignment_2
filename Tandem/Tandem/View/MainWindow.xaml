@@ -6,12 +6,84 @@
         xmlns:local="clr-namespace:Tandem"
         mc:Ignorable="d"
         Title="Tandem Language" Height="450" Width="625">
+
     <Window.Resources>
-        <Style TargetType="TextBlock">
-            <Setter Property="HorizontalAlignment" Value="Center" />
-            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+        <!--Coffee Meeting Style -->
+        <Style x:Key="RectangleStyle1">
+            <Setter Property="Rectangle.HorizontalAlignment" Value="Left" />
+            <Setter Property="Rectangle.Fill" Value="#FFDFE2DB" />
+            <Setter Property="Rectangle.Height" Value="173" />
+            <Setter Property="Rectangle.Margin" Value="-22,-17,0,0" />
+            <Setter Property="Rectangle.VerticalAlignment" Value="Top" />
+            <Setter Property="Rectangle.Width" Value="654" />
+            <Setter Property="Rectangle.RenderTransformOrigin" Value="0.5,0.5" />
         </Style>
+
+        <!--Coffee Meeting Style -->
+        <Style x:Key="RectangleStyle2">
+            <Setter Property="Rectangle.HorizontalAlignment" Value="Left" />
+            <Setter Property="Rectangle.Fill" Value="#FFDFE2DB" />
+            <Setter Property="Rectangle.Height" Value="73.779" />
+            <Setter Property="Rectangle.Margin" Value="-22.117,-17.38,-13.541,0" />
+            <Setter Property="Rectangle.VerticalAlignment" Value="Top" />
+            <Setter Property="Rectangle.Width" Value="654.258" />
+            <Setter Property="Rectangle.RenderTransformOrigin" Value="0.5,0.5" />
+        </Style>
+
+        <!--Coffee Meeting Style -->
+        <Style x:Key="TextBlockStyleTitle">
+            <Setter Property="TextBlock.Margin" Value="48.2,142.4,0,0" />
+            <Setter Property="TextBlock.HorizontalAlignment" Value="Left" />
+            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+            <Setter Property="TextBlock.VerticalAlignment" Value="Top" />
+            <Setter Property="TextBlock.Width" Value="213" />
+            <Setter Property="TextBlock.RenderTransformOrigin" Value="0.5,0.5" />
+            <Setter Property="TextBlock.Foreground" Value="Black" />
+            <Setter Property="TextBlock.FontSize" Value="27" />
+        </Style>
+        
+        <!--Coffee Meeting Style -->
+        <Style x:Key="TextBlockStyleTitle2">
+            <Setter Property="TextBlock.Margin" Value="28,89,0,0" />
+            <Setter Property="TextBlock.HorizontalAlignment" Value="Left" />
+            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+            <Setter Property="TextBlock.VerticalAlignment" Value="Top" />
+            <Setter Property="TextBlock.Width" Value="430" />
+            <Setter Property="TextBlock.RenderTransformOrigin" Value="0.5,0.5" />
+            <Setter Property="TextBlock.Foreground" Value="#FFFFF056" />
+            <Setter Property="TextBlock.FontSize" Value="40" />
+            <Setter Property="TextBlock.FontWeight" Value="Bold" />
+        </Style>
+
+        <!--Coffee Meeting Style -->
+        <Style x:Key="ImageStyle">
+            <Setter Property="Image.Margin" Value="10,112.117,10,10" />
+            <Setter Property="Image.Stretch" Value="Fill" />
+        </Style>
+
+        <!--Menu Style -->
+        <Style x:Key="MenuStyle" >
+            <Setter Property="Menu.HorizontalAlignment" Value="Left" />
+            <Setter Property="Menu.Height" Value="22.4" />
+            <Setter Property="Menu.VerticalAlignment" Value="Top" />
+            <Setter Property="Menu.Width" Value="200" />
+            <Setter Property="Menu.Background" Value="#FF191919" />
+        </Style>
+
+        <!--Menu Style -->
+        <Style x:Key="Ellipse" >
+            <Setter Property="Ellipse.HorizontalAlignment" Value="Left" />
+            <Setter Property="Ellipse.Fill" Value="#FF191919" />
+            <Setter Property="Ellipse.Height" Value="159" />
+            <Setter Property="Ellipse.Margin" Value="-108,-49,0,0" />
+            <Setter Property="Ellipse.Stroke" Value="Black" />
+            <Setter Property="Ellipse.VerticalAlignment" Value="Top" />
+            <Setter Property="Ellipse.Width" Value="733" />
+            <Setter Property="Ellipse.RenderTransformOrigin" Value="0.5,0.5" />
+        </Style>
+
     </Window.Resources>
+    
     <Grid Background="#FFDFE2DB">
         <Grid.RowDefinitions>
             <RowDefinition Height="10"/>
@@ -33,7 +105,8 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
-        <Rectangle Fill="#FFDFE2DB" HorizontalAlignment="Left" Height="173" Margin="-22,-17,0,0" VerticalAlignment="Top" Width="654" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3" Grid.RowSpan="2">
+
+        <Rectangle Style="{StaticResource RectangleStyle1}" Grid.ColumnSpan="3" Grid.RowSpan="2">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -43,8 +116,10 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Image Margin="10,112.117,10,10" Source="/Tandem;component/6362246997747664311320432210_alumni12_1.jpg" Stretch="Fill" Grid.ColumnSpan="3" Grid.Row="1"/>
-        <Rectangle Fill="#FFDFE2DB" HorizontalAlignment="Left" Height="173.779" Margin="-22.117,-17.38,-13.541,0" VerticalAlignment="Top" Width="654.258" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3" Grid.RowSpan="2">
+
+        <Image Style="{StaticResource ImageStyle}" Source="/Tandem;component/6362246997747664311320432210_alumni12_1.jpg" Grid.ColumnSpan="3" Grid.Row="1"/>
+
+        <Rectangle Style="{StaticResource RectangleStyle2}" Height="173.779" Grid.ColumnSpan="3" Grid.RowSpan="2">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -54,8 +129,9 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        
-        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Height="232" Margin="48.2,142.4,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" RenderTransformOrigin="0.5,0.5">
+
+        <TextBlock Style="{StaticResource TextBlockStyleTitle}" Grid.Column="2" Height="232" Grid.Row="1" >
+            Meet other students and learn a new language. At the same time you also teach them
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -63,8 +139,10 @@
                     <RotateTransform Angle="-11.581"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><Run Foreground="#FFFFF056" FontSize="36" Text="Tandem "/><Run Foreground="#FF231F20" FontSize="36" Text="Language"/><LineBreak/><LineBreak/><Run Foreground="#FF231F20" FontWeight="Bold" FontSize="18" Text="Meet other students and learn a new language. At the same time you also teach them"/></TextBlock>
-        <TextBlock  Name="TandemLamguage" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="68" Margin="28,89,0,0" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" FontSize="24">
+            </TextBlock.RenderTransform></TextBlock>
+
+        <TextBlock  Style="{StaticResource TextBlockStyleTitle2}" Name="TandemLamguage" Grid.ColumnSpan="3" Height="68" Grid.Row="1" Grid.Column="0">
+            Tandem Language
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -72,8 +150,9 @@
                     <RotateTransform Angle="-5.617"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><Run Foreground="#FFFFF056" FontSize="48" Text="Tandem "/><Run Foreground="#FF231F20" FontSize="48" Text="Language"/></TextBlock>
-        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="159" Margin="-108,-49,0,0" Stroke="Black" VerticalAlignment="Top" Width="733" RenderTransformOrigin="0.5,0.5" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="6" >
+            </TextBlock.RenderTransform></TextBlock>
+
+        <Ellipse Style="{StaticResource Ellipse}" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="6" >
             <Ellipse.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -83,9 +162,11 @@
                 </TransformGroup>
             </Ellipse.RenderTransform>
         </Ellipse>
-        <Menu HorizontalAlignment="Left" Height="Auto" Margin="10,10.4,0,407.6" Grid.Row="1" Grid.Column="0" Width="172" Background="#FF191919">
+
+        <Menu Style="{StaticResource MenuStyle}" Grid.Row="1" Grid.Column="0">
             <MenuItem Header="Sign Up" Height="25.323" Width="60" Foreground="#FFF4F4F5" Click="SignUpCommand"/>
             <MenuItem Header="Coffee Meetings" Height="25.323" Width="100" Foreground="#FFF4F4F5" Click="CoffeeMeetingCommand"/>
         </Menu>
+    
     </Grid>
 </Window>
