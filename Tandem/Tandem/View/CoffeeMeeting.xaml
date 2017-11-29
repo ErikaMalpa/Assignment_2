@@ -17,7 +17,7 @@
             <Setter Property="TextBox.Foreground" Value="#FFFFF056"/>
         </Style>
 
-        <!--Coffee Meeting Style -->
+        <!--Image Style -->
         <Style x:Key="ImageStyle" >
             <Setter Property="Image.HorizontalAlignment" Value="Left" />
             <Setter Property="Image.Height" Value="151"/>
@@ -26,7 +26,7 @@
             <Setter Property="Image.Width" Value="178"/>
         </Style>
 
-        <!--Coffee Meeting Style -->
+        <!--Image Meeting Style -->
         <Style x:Key="ImageStyle2" >
             <Setter Property="Image.HorizontalAlignment" Value="Left" />
             <Setter Property="Image.Height" Value="151"/>
@@ -35,7 +35,7 @@
             <Setter Property="Image.Width" Value="178"/>
         </Style>
 
-        <!--Coffee Meeting Style-->
+        <!--Ellipse Style-->
         <Style x:Key="EllipseBlackStyle" >
             <Setter Property="Ellipse.Fill" Value="#FF191919" />
             <Setter Property="Ellipse.HorizontalAlignment" Value="Left" />
@@ -46,7 +46,7 @@
             <Setter Property="Ellipse.RenderTransformOrigin" Value="0.5,0.5" />
         </Style>
 
-        <!--Coffee Meeting Style-->
+        <!--TextBlock title Style-->
         <Style x:Key="TextBlockStyleTitle" >
             <Setter Property="TextBlock.Margin" Value="193,49.6,3.4,185.2" />
             <Setter Property="TextBlock.Foreground" Value="#FFFFF056" />
@@ -54,14 +54,14 @@
             <Setter Property="TextBlock.FontSize" Value="18" />
         </Style>
 
-        <!--Coffee Meeting Style-->
+        <!--TextBlock description Style-->
         <Style x:Key="TextBlockStyleDesc" >
             <Setter Property="TextBlock.Margin" Value="193,68.6,3.4,185.2" />
             <Setter Property="TextBlock.Foreground" Value="Black" />
             <Setter Property="TextBlock.FontSize" Value="16" />
         </Style>
 
-        <!--Coffee Meeting Style-->
+        <!--Textblock title Style-->
         <Style x:Key="TextBlockStyleTitle2" >
             <Setter Property="TextBlock.Margin" Value="192.51,19.257,4.6,30.4" />
             <Setter Property="TextBlock.Foreground" Value="#FFFFF056" />
@@ -69,14 +69,14 @@
             <Setter Property="TextBlock.FontSize" Value="18" />
         </Style>
 
-        <!--Coffee Meeting Style-->
+        <!--text block description Style-->
         <Style x:Key="TextBlockStyleDesc2" >
             <Setter Property="TextBlock.Margin" Value="193,42.4,3.4,0" />
             <Setter Property="TextBlock.Foreground" Value="Black" />
             <Setter Property="TextBlock.FontSize" Value="16" />
         </Style>
 
-        <!--Coffee Meeting Style -->
+        <!--Menu Style -->
         <Style x:Key="MenuStyle" >
             <Setter Property="Menu.HorizontalAlignment" Value="Left" />
             <Setter Property="Menu.Height" Value="22.4" />

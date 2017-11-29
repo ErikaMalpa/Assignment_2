@@ -8,7 +8,7 @@
         Title="Tandem Language" Height="450" Width="625">
 
     <Window.Resources>
-        <!--Coffee Meeting Style -->
+        <!--Rectangle Style -->
         <Style x:Key="RectangleStyle1">
             <Setter Property="Rectangle.HorizontalAlignment" Value="Left" />
             <Setter Property="Rectangle.Fill" Value="#FFDFE2DB" />
@@ -19,7 +19,7 @@
             <Setter Property="Rectangle.RenderTransformOrigin" Value="0.5,0.5" />
         </Style>
 
-        <!--Coffee Meeting Style -->
+        <!--Rectangle Style2 -->
         <Style x:Key="RectangleStyle2">
             <Setter Property="Rectangle.HorizontalAlignment" Value="Left" />
             <Setter Property="Rectangle.Fill" Value="#FFDFE2DB" />
@@ -30,7 +30,7 @@
             <Setter Property="Rectangle.RenderTransformOrigin" Value="0.5,0.5" />
         </Style>
 
-        <!--Coffee Meeting Style -->
+        <!--Text Block Style -->
         <Style x:Key="TextBlockStyleTitle">
             <Setter Property="TextBlock.Margin" Value="48.2,142.4,0,0" />
             <Setter Property="TextBlock.HorizontalAlignment" Value="Left" />
@@ -42,7 +42,7 @@
             <Setter Property="TextBlock.FontSize" Value="27" />
         </Style>
         
-        <!--Coffee Meeting Style -->
+        <!--Text Block Style -->
         <Style x:Key="TextBlockStyleTitle2">
             <Setter Property="TextBlock.Margin" Value="28,89,0,0" />
             <Setter Property="TextBlock.HorizontalAlignment" Value="Left" />
@@ -55,7 +55,7 @@
             <Setter Property="TextBlock.FontWeight" Value="Bold" />
         </Style>
 
-        <!--Coffee Meeting Style -->
+        <!--Image Style -->
         <Style x:Key="ImageStyle">
             <Setter Property="Image.Margin" Value="10,112.117,10,10" />
             <Setter Property="Image.Stretch" Value="Fill" />
@@ -70,7 +70,7 @@
             <Setter Property="Menu.Background" Value="#FF191919" />
         </Style>
 
-        <!--Menu Style -->
+        <!--Ellipse Style -->
         <Style x:Key="Ellipse" >
             <Setter Property="Ellipse.HorizontalAlignment" Value="Left" />
             <Setter Property="Ellipse.Fill" Value="#FF191919" />

@@ -8,8 +8,63 @@
         xmlns:viewModel="clr-namespace:Tandem.ViewModel"
         Title="Sign Up" Height="450" Width="625">
     <Window.Resources>
+
         <viewModel:StudentViewModel x:Key="StudentViewModel"/>
+
+        <!--Ellipse Style-->
+        <Style x:Key="EllipseBlackStyle" >
+            <Setter Property="Ellipse.Fill" Value="#FF191919" />
+            <Setter Property="Ellipse.HorizontalAlignment" Value="Left" />
+            <Setter Property="Ellipse.Height" Value="159.226" />
+            <Setter Property="Ellipse.Margin" Value="-98.367,-53.166,-15.523,0" />
+            <Setter Property="Ellipse.VerticalAlignment" Value="Top" />
+            <Setter Property="Ellipse.Width" Value="732.49" />
+            <Setter Property="Ellipse.RenderTransformOrigin" Value="0.5,0.5" />
+        </Style>
+
+        <!--Menu Style -->
+        <Style x:Key="MenuStyle" >
+            <Setter Property="Menu.HorizontalAlignment" Value="Left" />
+            <Setter Property="Menu.Height" Value="22.4" />
+            <Setter Property="Menu.VerticalAlignment" Value="Top" />
+            <Setter Property="Menu.Width" Value="128.933" />
+            <Setter Property="Menu.Background" Value="#FF191919" />
+        </Style>
+
+        <!--TextBoxStyle Style -->
+        <Style x:Key="TextBoxStyle" >
+            <Setter Property="TextBox.HorizontalAlignment" Value="Right" />
+            <Setter Property="TextBox.Height" Value="Auto" />
+            <Setter Property="TextBox.TextWrapping" Value="Wrap" />
+        </Style>
+
+        <!--TextBockStyle Style -->
+        <Style x:Key="TextBlockStyle" >
+            <Setter Property="TextBlock.VerticalAlignment" Value="Top"/>
+            <Setter Property="TextBlock.Height" Value="17.457" />
+            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+            <Setter Property="TextBlock.RenderTransformOrigin" Value="0.376,1.303" />
+            <Setter Property="TextBlock.FontSize" Value="16" />
+            <Setter Property="TextBlock.FontWeight" Value="Bold" />
+            <Setter Property="TextBlock.Foreground" Value="#FF191919" />
+        </Style>
+        
+        <!--Button Style -->
+        <Style x:Key="ButtonStyle" >
+            <Setter Property="Button.VerticalAlignment" Value="Top"/>
+            <Setter Property="Button.HorizontalAlignment" Value="Left"/>
+            <Setter Property="Button.Margin" Value="210.6,294.096,0,0"/>
+            <Setter Property="Button.Width" Value="147.2"/>
+        </Style>
+
+        <!--ListView Style -->
+        <Style x:Key="ListViewStyle" >
+            <Setter Property="ListView.Width" Value="Auto"/>
+            <Setter Property="ListView.Margin" Value="10,47.896,10,65.4"/>
+            <Setter Property="ListView.RenderTransformOrigin" Value="-0.55,3.17"/>
+        </Style>
     </Window.Resources>
+    
     <Grid Background="#FFDFE2DB" DataContext="{Binding Source={StaticResource StudentViewModel}}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20" />
@@ -32,7 +87,8 @@
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Left" Height="50.693" Margin="10,85.533,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="558.6" FontSize="16" Grid.Column="5" Grid.Row="7"><Run Text="Are you "/><Run Text="interested in learning a new language while also meeting new people?"/><LineBreak/><Run Text="If yes then please sign up and we will email you when we find a partner for you."/></TextBlock>
-        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="159.226" Margin="-94.967,-58.766,-18.923,0" Stroke="Black" VerticalAlignment="Top" Width="732.49" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="7" Grid.RowSpan="8">
+
+        <Ellipse Style="{StaticResource EllipseBlackStyle}" Margin="-94.967,-58.766,-18.923,0" Stroke="Black"  Grid.ColumnSpan="7" Grid.RowSpan="8">
             <Ellipse.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -42,26 +98,29 @@
                 </TransformGroup>
             </Ellipse.RenderTransform>
         </Ellipse>
-        <TextBox Grid.Column="5" HorizontalAlignment="Right" Height="17.457" Margin="0,144.543,309.2,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="164.4" Text="{Binding Student.studentFirstName}" Name="TextBox1"/>
-        <TextBlock Grid.Column="5" HorizontalAlignment="Left" Height="20.774" Margin="10,141.226,0,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.376,1.303" FontSize="16" FontWeight="Bold" Foreground="#FF191919"><Run Text="First "/><Run Text="Name"/><Run Text=""/></TextBlock>
-        <TextBlock Grid.Column="5" HorizontalAlignment="Left" Height="25.774" Margin="10,167,0,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.376,1.303" FontSize="16" FontWeight="Bold" Foreground="#FF191919" Text="Last Name:"/>
-        <TextBox Grid.Column="5" HorizontalAlignment="Right" Height="17.457" Margin="0,170.317,309.2,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="164.4" Text="{Binding Student.studentLastName}" Name="TextBox2"/>
-        <TextBlock Grid.Column="5" HorizontalAlignment="Left" Height="25.774" Margin="10,192.774,0,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.376,1.303" FontSize="16" FontWeight="Bold" Foreground="#FF191919"><Run Text="Email"/><Run Text=":"/></TextBlock>
-        <TextBlock Grid.Column="5" HorizontalAlignment="Left" Height="25.774" Margin="10,218.548,0,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="195.6" RenderTransformOrigin="0.376,1.303" FontSize="16" FontWeight="Bold" Foreground="#FF191919"><Run Text="Language"/><Run Text=" I can teach"/><Run Text=":"/></TextBlock>
-        <TextBlock Grid.Column="5" HorizontalAlignment="Left" Height="25.774" Margin="10,244.322,0,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" RenderTransformOrigin="0.376,1.303" FontSize="16" FontWeight="Bold" Foreground="#FF191919"><Run Text="Language that I "/><Run Text="want"/><Run Text=":"/></TextBlock>
-        <TextBox Grid.Column="5" HorizontalAlignment="Right" Height="17.457" Margin="0,196.091,309.2,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="164.4" Name="TextBox3" Text="{Binding Student.studentEmail}"/>
-        <TextBox Grid.Column="5" HorizontalAlignment="Right" Height="17.457" Margin="0,221.865,30.8,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="337.2" Name="TextBox4" Text="{Binding Student.studentMotherTongue}"/>
-        <TextBox Grid.Column="5" HorizontalAlignment="Right" Height="17.457" Margin="0,247.639,30.8,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="337.2" Name="TextBox5" Text="{Binding Student.studentLanguageWanted}"/>
-        <Button Content="Submit" Grid.Column="5" HorizontalAlignment="Left" Height="27.2" Margin="210.6,294.096,0,0" Grid.Row="7" VerticalAlignment="Top" Width="147.2" Click="SubmitButton" Command="{Binding SubmitButton}"/>
-        <Menu Grid.Column="5" HorizontalAlignment="Left" Height="22.4" Margin="10,10,0,0" Grid.Row="7" VerticalAlignment="Top" Width="176.933" Background="#FF191919">
+
+        <TextBox Style="{StaticResource TextBoxStyle}" Grid.Column="5" Margin="0,144.2,309.4,214" Grid.Row="7"  Width="165" Text="{Binding Student.studentFirstName}" Name="TextBox1" />
+        <TextBlock Style="{StaticResource TextBlockStyle}" Grid.Column="5" HorizontalAlignment="Left" Height="20.774" Margin="10,141.226,0,0" Grid.Row="7" Width="90">First Name</TextBlock>
+        <TextBlock Style="{StaticResource TextBlockStyle}" Grid.Column="5" HorizontalAlignment="Left" Height="25.774" Margin="10,167,0,0" Grid.Row="7" Width="90">Last Name </TextBlock>
+        <TextBox Style="{StaticResource TextBoxStyle}" Grid.Column="5"  Margin="0,170.2,308.4,188" Grid.Row="7"  Width="165" Text="{Binding Student.studentLastName}" Name="TextBox2"/>
+        <TextBlock Style="{StaticResource TextBlockStyle}" Grid.Column="5" HorizontalAlignment="Left" Height="25.774" Margin="10,192.774,0,0" Grid.Row="7" Width="90">Email</TextBlock>
+        <TextBlock Style="{StaticResource TextBlockStyle}" Grid.Column="5" HorizontalAlignment="Left" Height="25.774" Margin="10,218.548,0,0" Grid.Row="7" Width="195.6">Language I can Teach:</TextBlock>
+        <TextBlock Style="{StaticResource TextBlockStyle}" Grid.Column="5" HorizontalAlignment="Left" Height="25.774" Margin="10,244.322,0,0" Grid.Row="7" Width="186">Language that I want:</TextBlock>
+        <TextBox Style="{StaticResource TextBoxStyle}" Grid.Column="5"  Margin="0,196.2,308.4,162" Grid.Row="7" Width="165" Name="TextBox3" Text="{Binding Student.studentEmail}"/>
+        <TextBox Style="{StaticResource TextBoxStyle}" Grid.Column="5"  Margin="0,222.2,47.4,136" Grid.Row="7"  Width="338" Name="TextBox4" Text="{Binding Student.studentMotherTongue}"/>
+        <TextBox Style="{StaticResource TextBoxStyle}" Grid.Column="5"  Margin="0,248.2,45.4,109" Grid.Row="7" Width="338" Name="TextBox5" Text="{Binding Student.studentLanguageWanted}"/>
+        <Button Style="{StaticResource ButtonStyle}" Content="Submit" Grid.Column="5" Height="27.2" Grid.Row="7"  Click="SubmitButton" Command="{Binding SubmitButton}"/>
+
+        <Menu Style="{StaticResource MenuStyle}" Grid.Column="5" Margin="10,10,0,0" Grid.Row="7"  Width="176.933" >
             <MenuItem Header="Home" Height="22.4" Width="66.4" Background="#FF191919" Foreground="#FFF4F4F5" Click="HomeButton" BorderBrush="#FF191919"/>
             <MenuItem Header="Coffee Meeting" Height="22.4" Width="110.533" Background="#FF191919" Foreground="#FFF4F4F5" Click="CoffeeMeetingClick" BorderBrush="#FF191919"/>
         </Menu>
+
         <Popup Name="TablePopup"
                Placement="Top"
                AllowsTransparency="True">
             <Grid Height="250.176" Width="496.77">
-                <ListView ItemsSource="{Binding Students}" Width="Auto" Margin="10,47.896,10,65.4" RenderTransformOrigin="-0.55,3.17">
+                <ListView Style="{StaticResource ListViewStyle}" ItemsSource="{Binding Students}">
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="First Name" DisplayMemberBinding="{Binding studentFirstName}" Width="Auto"/>

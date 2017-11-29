@@ -68,7 +68,6 @@ namespace Tandem.View
             coffeeMeeting.Show();
             this.Close();
         }
-
     }
 }
 
